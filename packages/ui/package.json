@@ -9,6 +9,9 @@
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@mamokey/utils": "workspace:^"
+  },
   "peerDependencies": {
     "react": "^19"
   },
