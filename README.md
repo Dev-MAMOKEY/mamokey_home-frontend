@@ -1,0 +1,1 @@
+# mamokey-home
