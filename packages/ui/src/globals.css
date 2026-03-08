@@ -4,9 +4,17 @@
   --color-black: #000000;
   --color-white: #f9f9f9;
   --color-pure-white: #ffffff;
-  --color-blue: #003edf;
-  --color-blue-light: #c9d4f8;
-  --color-navy: #20369d;
+
+  --color-blue-50:  #eef3ff;
+  --color-blue-100: #c9d4f8;
+  --color-blue-200: #98baff;
+  --color-blue-300: #6f9aff;
+  --color-blue-400: #3f6eff;
+  --color-blue-500: #003edf;
+  --color-blue-600: #0034c2;
+  --color-blue-700: #20369d;
+  --color-blue-800: #1a2b7e;
+  --color-blue-900: #111c52;
 
   --font-sans: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 
