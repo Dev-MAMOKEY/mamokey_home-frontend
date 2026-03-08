@@ -1,0 +1,82 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css");
+
+@theme {
+  --color-black: #000000;
+  --color-white: #f9f9f9;
+  --color-pure-white: #ffffff;
+  --color-blue: #003edf;
+  --color-blue-light: #c9d4f8;
+  --color-navy: #20369d;
+
+  --font-sans: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+
+  --font-size-main-title: 200px;
+  --font-size-section-title: 55px;
+  --font-size-section-subtitle: 28px;
+  --font-size-item-title: 34px;
+  --font-size-title-description: 25px;
+  --font-size-section-body: 20px;
+  --font-size-nav-button: 23px;
+  --font-size-cta: 20px;
+
+  --line-height-main-title: 170px;
+  --line-height-title-description: 35px;
+  --line-height-section-body: 32px;
+  --line-height-nav-button: 30px;
+}
+
+@utility text-main-title {
+  font-size: var(--font-size-main-title);
+  font-weight: 400;
+  line-height: var(--line-height-main-title);
+  font-family: var(--font-sans);
+}
+
+@utility text-section-title {
+  font-size: var(--font-size-section-title);
+  font-weight: 500;
+  line-height: 100%;
+  font-family: var(--font-sans);
+}
+
+@utility text-section-subtitle {
+  font-size: var(--font-size-section-subtitle);
+  font-weight: 600;
+  line-height: 100%;
+  font-family: var(--font-sans);
+}
+
+@utility text-item-title {
+  font-size: var(--font-size-item-title);
+  font-weight: 700;
+  line-height: 100%;
+  font-family: var(--font-sans);
+}
+
+@utility text-title-description {
+  font-size: var(--font-size-title-description);
+  font-weight: 400;
+  line-height: var(--line-height-title-description);
+  font-family: var(--font-sans);
+}
+
+@utility text-section-body {
+  font-size: var(--font-size-section-body);
+  font-weight: 400;
+  line-height: var(--line-height-section-body);
+  font-family: var(--font-sans);
+}
+
+@utility text-nav-button {
+  font-size: var(--font-size-nav-button);
+  font-weight: 300;
+  line-height: var(--line-height-nav-button);
+  font-family: var(--font-sans);
+}
+
+@utility text-cta {
+  font-size: var(--font-size-cta);
+  font-weight: 600;
+  line-height: 100%;
+  font-family: var(--font-sans);
+}
