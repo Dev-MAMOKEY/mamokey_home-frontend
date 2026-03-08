@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "exports": {
     ".": "./src/index.ts",
+    "./globals.css": "./src/globals.css",
     "./components/*": "./src/components/*.tsx"
   },
   "scripts": {
