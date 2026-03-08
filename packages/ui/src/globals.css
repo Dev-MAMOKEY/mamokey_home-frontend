@@ -94,7 +94,7 @@
   font-size: var(--font-size-label-1);
   font-weight: 500;
   line-height: 100%;
-  font-family: var(--font-sans)
+  font-family: var(--font-sans);
 }
 
 @utility text-button-1 {
