@@ -18,72 +18,72 @@
 
   --font-sans: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 
-  --font-size-main-title: 200px;
-  --font-size-section-title: 55px;
-  --font-size-section-subtitle: 28px;
-  --font-size-item-title: 34px;
-  --font-size-title-description: 25px;
-  --font-size-section-body: 20px;
-  --font-size-nav-button: 23px;
-  --font-size-cta: 20px;
+  --font-size-title-1: 200px;
+  --font-size-title-2: 55px;
+  --font-size-title-3: 34px;
+  --font-size-title-4: 28px;
+  --font-size-body-1: 25px;
+  --font-size-body-2: 20px;
+  --font-size-button-1: 23px;
+  --font-size-button-2: 20px;
 
-  --line-height-main-title: 170px;
-  --line-height-title-description: 35px;
-  --line-height-section-body: 32px;
-  --line-height-nav-button: 30px;
+  --line-height-title-1: 170px;
+  --line-height-body-1: 35px;
+  --line-height-body-2: 32px;
+  --line-height-button-1: 30px;
 }
 
-@utility text-main-title {
-  font-size: var(--font-size-main-title);
+@utility text-title-1 {
+  font-size: var(--font-size-title-1);
   font-weight: 400;
-  line-height: var(--line-height-main-title);
+  line-height: var(--line-height-title-1);
   font-family: var(--font-sans);
 }
 
-@utility text-section-title {
-  font-size: var(--font-size-section-title);
+@utility text-title-2 {
+  font-size: var(--font-size-title-2);
   font-weight: 500;
   line-height: 100%;
   font-family: var(--font-sans);
 }
 
-@utility text-section-subtitle {
-  font-size: var(--font-size-section-subtitle);
-  font-weight: 600;
-  line-height: 100%;
-  font-family: var(--font-sans);
-}
-
-@utility text-item-title {
-  font-size: var(--font-size-item-title);
+@utility text-title-3 {
+  font-size: var(--font-size-title-3);
   font-weight: 700;
   line-height: 100%;
   font-family: var(--font-sans);
 }
 
-@utility text-title-description {
-  font-size: var(--font-size-title-description);
-  font-weight: 400;
-  line-height: var(--line-height-title-description);
+@utility text-title-4 {
+  font-size: var(--font-size-title-4);
+  font-weight: 600;
+  line-height: 100%;
   font-family: var(--font-sans);
 }
 
-@utility text-section-body {
-  font-size: var(--font-size-section-body);
+@utility text-body-1 {
+  font-size: var(--font-size-body-1);
   font-weight: 400;
-  line-height: var(--line-height-section-body);
+  line-height: var(--line-height-body-1);
   font-family: var(--font-sans);
 }
 
-@utility text-nav-button {
-  font-size: var(--font-size-nav-button);
+@utility text-body-2 {
+  font-size: var(--font-size-body-2);
+  font-weight: 400;
+  line-height: var(--line-height-body-2);
+  font-family: var(--font-sans);
+}
+
+@utility text-button-1 {
+  font-size: var(--font-size-button-1);
   font-weight: 300;
-  line-height: var(--line-height-nav-button);
+  line-height: var(--line-height-button-1);
   font-family: var(--font-sans);
 }
 
-@utility text-cta {
-  font-size: var(--font-size-cta);
+@utility text-button-2 {
+  font-size: var(--font-size-button-2);
   font-weight: 600;
   line-height: 100%;
   font-family: var(--font-sans);
