@@ -13,7 +13,7 @@ export function ActivityPlanCard({ label, variant }: ActivityPlanCardProps) {
   };
 
   return (
-    <div className={cn("flex flex-1 items-center justify-center overflow-hidden border-b border-gray-200 px-6 py-5 dark:border-gray-800 md:px-10 md:py-6", styles[variant])}>
+    <div className={cn("flex flex-1 items-center justify-center overflow-hidden border-b border-gray-200 px-6 py-5 dark:border-gray-900 md:px-10 md:py-6", styles[variant])}>
       <span className="font-body-2">{label}</span>
     </div>
   );
