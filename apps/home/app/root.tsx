@@ -13,8 +13,7 @@ import type { Route } from "./+types/root";
 import "./app.css";
 
 const navItems = [
-  { label: "소개", href: "#" },
-  { label: "프로젝트", href: "/project" },
+  { label: "소식", href: "/news" },
   { label: "지원하기", href: "/recruit" },
 ];
 
