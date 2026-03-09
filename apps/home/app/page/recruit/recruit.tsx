@@ -33,14 +33,14 @@ export function RecruitPage() {
       </section>
 
       {/* Target */}
-      <section className="px-5 py-20 md:px-12 md:py-28 lg:px-24">
+      <section className="bg-blue-400 dark:bg-blue-700 px-5 py-20 md:px-12 md:py-28 lg:px-24">
         <div className="mx-auto max-w-4xl">
           <div className="mb-12 md:mb-16">
             <SectionHeader
               icon
               title="Target"
               subtitle="이런 분들을 찾고 있어요"
-              className="text-blue-700 dark:text-blue-400"
+              className="text-white dark:text-pure-white"
             />
           </div>
           <div className="flex flex-col gap-4 md:gap-5">
