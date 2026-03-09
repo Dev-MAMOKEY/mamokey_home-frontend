@@ -40,16 +40,16 @@ export function HomePage() {
 
 
       {/* Intro */}
-      <section className="bg-gray-50 px-5 py-20 dark:bg-dark-bg-alt md:px-12 md:py-28 lg:px-24">
+      <section className="bg-blue-700 dark:bg-blue-400 px-5 py-20 md:px-12 md:py-28 lg:px-24">
         <div className="mx-auto flex max-w-6xl flex-col gap-10 md:flex-row md:items-center md:gap-16 lg:gap-24">
           <div className="flex flex-1 flex-col gap-6">
             <SectionHeader
               icon
               title="LikeLion.Univ"
               subtitle="멋쟁이사자처럼 대학"
-              className="text-blue-700 dark:text-blue-400"
+              className="text-white dark:text-pure-white"
             />
-            <p className="font-body-2 max-w-md text-gray-700 dark:text-gray-400">
+            <p className="font-body-2 max-w-md text-gray-300 dark:text-gray-200">
               전국 81개 대학교가 참여하는 국내 최대 규모의 대학 연합 IT 창업 동아리입니다.
               <br />
               웹 기획·디자인, 프론트엔드, 백엔드 개발을 배워 자신만의 서비스를 만들 수 있도록 돕습니다.
