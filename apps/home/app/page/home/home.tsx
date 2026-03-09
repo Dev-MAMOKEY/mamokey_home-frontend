@@ -62,6 +62,7 @@ export function HomePage() {
                 alt="멋쟁이사자처럼 소개"
                 width={600}
                 height={338}
+                fetchPriority="high"
                 className="size-full object-cover"
               />
             </div>
