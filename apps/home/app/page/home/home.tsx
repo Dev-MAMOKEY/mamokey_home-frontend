@@ -50,9 +50,9 @@ export function HomePage() {
               className="text-blue-700 dark:text-blue-400"
             />
             <p className="font-body-2 max-w-md text-gray-700 dark:text-gray-400">
-              멋쟁이사자처럼 대학은 국내 최대 규모의 IT 창업 동아리입니다.
-              프로그래밍에 대한 지식이 없어도, 누구나 참여할 수 있는 교육 프로그램을 제공합니다.
-              함께 성장하고, 함께 만들어가는 멋쟁이사자처럼 대학에 참여해보세요.
+              전국 81개 대학교가 참여하는 국내 최대 규모의 대학 연합 IT 창업 동아리입니다.
+              <br />
+              웹 기획·디자인, 프론트엔드, 백엔드 개발을 배워 자신만의 서비스를 만들 수 있도록 돕습니다.
             </p>
           </div>
           <div className="w-full shrink-0 md:w-1/2">
@@ -84,22 +84,22 @@ export function HomePage() {
             <WithUsCard
               imageSrc="/images/with-us-1.png"
               title="학교별 스터디"
-              description="각 학교에서 진행되는 트랙별 자율 스터디를 통해 실전 역량을 쌓아갑니다."
+              description="각 학교에서 진행되는 트랙별 자율 스터디를 통해, 아이디어를 현실화할 수 있는 실전 역량을 쌓아갑니다."
             />
             <WithUsCard
               imageSrc="/images/with-us-2.png"
               title="아이디어톤"
-              description="아이디어를 기획하고 프로토타입으로 실현 가능성을 검증합니다."
+              description="창의적인 아이디어를 기획하고 프로토타입으로 실현 가능성을 검증하는 아이디어 실현의 출발점입니다."
             />
             <WithUsCard
               imageSrc="/images/with-us-3.png"
               title="중앙 해커톤"
-              description="한 달 간의 개발을 거쳐 서비스를 구현하고 배포하는 전국 최대 규모 해커톤입니다."
+              description="한 달 간의 개발 기간을 거쳐 서비스를 직접 구현하고 배포하는, 전국 최대 규모의 해커톤 행사입니다."
             />
             <WithUsCard
               imageSrc="/images/with-us-4.png"
               title="연합/기업 해커톤"
-              description="대학 간 연합 해커톤과 기업 솔루션 개발로 더 넓은 세상을 경험합니다."
+              description="대학 간 경계를 허무는 연합 해커톤 기획과 기업 솔루션 개발로 더 넓은 세상을 경험합니다."
             />
           </div>
         </div>
