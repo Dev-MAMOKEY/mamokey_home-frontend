@@ -77,7 +77,7 @@ export function HomePage() {
               icon
               title="With Us"
               subtitle="우리와 함께해요"
-              className="text-blue-700 dark:text-blue-400"
+              className="text-blue-400 dark:text-blue-700"
             />
           </div>
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:gap-8">
@@ -113,7 +113,7 @@ export function HomePage() {
               icon
               title="News"
               subtitle="새로운 소식"
-              className="text-blue-700 dark:text-blue-400"
+              className="text-blue-400 dark:text-blue-700"
             />
           </div>
         </div>
