@@ -161,14 +161,14 @@ export function RecruitPage() {
       </section>
 
       {/* CTA */}
-      <section className="flex flex-col items-center gap-6 bg-blue-700 px-5 py-20 md:gap-8 md:py-28">
+      <section className="flex flex-col items-center gap-6 bg-blue-400 dark:bg-blue-700 px-5 py-20 md:gap-8 md:py-28">
         <h2 className="font-title-2 text-center text-pure-white text-pretty">
           지금 바로
           <br />
           지원하세요
         </h2>
         <Link to="/apply">
-          <Button className="bg-pure-white text-blue-700 transition-colors duration-200 hover:bg-gray-100">
+          <Button className="bg-white dark:bg-pure-white text-blue-400 dark:text-blue-700 transition-colors duration-200 hover:bg-gray-100">
             14기 아기사자 지원하기
           </Button>
         </Link>

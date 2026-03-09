@@ -126,14 +126,14 @@ export function HomePage() {
       </section>
 
       {/* CTA */}
-      <section className="flex flex-col items-center gap-6 bg-blue-700 px-5 py-20 md:gap-8 md:py-28">
+      <section className="flex flex-col items-center gap-6 bg-blue-400 dark:bg-blue-700 px-5 py-20 md:gap-8 md:py-28">
         <h2 className="font-title-2 text-center text-pure-white text-pretty">
           함께 만들어갈
           <br />
           다음 이야기의 주인공
         </h2>
         <Link to="/apply">
-          <Button className="bg-pure-white text-blue-700 transition-colors duration-200 hover:bg-gray-100">
+          <Button className="bg-white dark:bg-pure-white text-blue-400 dark:text-blue-700 transition-colors duration-200 hover:bg-gray-100">
             14기 아기사자 지원하기
           </Button>
         </Link>
