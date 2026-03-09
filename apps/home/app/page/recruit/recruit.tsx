@@ -12,20 +12,20 @@ export function RecruitPage() {
     <div className="flex flex-col bg-pure-white dark:bg-dark-bg">
       {/* Hero */}
       <section className="relative flex min-h-[calc(100vh-4rem)] flex-col items-center justify-center overflow-hidden px-5 md:min-h-[calc(100vh-5rem)]">
-        <div className="absolute -left-1/4 -top-1/4 h-[70vw] w-[70vw] rounded-full bg-blue-200/70 blur-[120px] dark:bg-blue-800/20" aria-hidden="true" />
-        <div className="absolute -bottom-1/4 -right-1/4 h-[50vw] w-[50vw] rounded-full bg-blue-100/60 blur-[100px] dark:bg-blue-900/15" aria-hidden="true" />
+        <img
+          src="/images/hero-bg.png"
+          className="absolute w-full h-full object-cover"
+          aria-hidden="true"
+        />
         <div className="relative flex flex-col items-center gap-6 md:gap-8">
-          <p className="animate-fade-up font-label-2 tracking-[0.2em] text-gray-500 uppercase dark:text-gray-600">
-            14th Generation
-          </p>
-          <h1 className="animate-fade-up font-title-1 text-center text-blue-500" style={{ animationDelay: "0.1s" }}>
+          <h1 className="animate-fade-up font-title-1 text-center text-black dark:text-white">
             RECRUIT
           </h1>
-          <p className="animate-fade-up font-body-1 max-w-md text-center text-gray-700 dark:text-gray-400" style={{ animationDelay: "0.2s" }}>
+          <p className="animate-fade-up font-body-1 max-w-md lg:max-w-xl text-center text-gray-700 dark:text-gray-400" style={{ animationDelay: "0.1s" }}>
             멋사신한과 함께할 아기사자를 모집합니다!
           </p>
-          <Link to="/apply" className="animate-fade-up mt-4" style={{ animationDelay: "0.3s" }}>
-            <Button className="bg-blue-500 text-pure-white transition-colors duration-200 hover:bg-blue-600">
+          <Link to="/apply" className="text-pure-white">
+            <Button className="bg-blue-500 transition-colors duration-200 hover:bg-blue-600 animate-fade-up" style={{ animationDelay: "0.2s" }}>
               지원하기
             </Button>
           </Link>
@@ -115,7 +115,7 @@ export function RecruitPage() {
           </div>
 
           {/* Desktop table */}
-          <div className="hidden overflow-hidden rounded-lg border border-gray-200 dark:border-gray-800 md:block">
+          <div className="hidden overflow-hidden rounded-lg border border-gray-200 dark:border-gray-900 md:block">
             <div className="flex flex-col">
               <div className="flex">
                 <ActivityPlanCard label="월" variant="header" />
@@ -142,16 +142,16 @@ export function RecruitPage() {
 
           {/* Mobile card layout */}
           <div className="flex flex-col gap-4 md:hidden">
-            <div className="flex flex-col gap-3 rounded-lg border border-gray-200 p-5 dark:border-gray-800">
+            <div className="flex flex-col gap-3 rounded-lg border border-gray-200 p-5 dark:border-gray-900">
               <span className="font-title-4 text-blue-700 dark:text-blue-300">3월</span>
               <p className="font-body-2 text-gray-700 dark:text-gray-300">OT 및 팀 빌딩</p>
             </div>
-            <div className="flex flex-col gap-3 rounded-lg border border-gray-200 p-5 dark:border-gray-800">
+            <div className="flex flex-col gap-3 rounded-lg border border-gray-200 p-5 dark:border-gray-900">
               <span className="font-title-4 text-blue-700 dark:text-blue-300">4월</span>
               <p className="font-body-2 text-gray-700 dark:text-gray-300">파트별 스터디</p>
               <span className="font-label-2 inline-block self-start rounded-full bg-blue-50 px-3 py-1 text-blue-700 dark:bg-blue-900/30 dark:text-blue-300">아이디어톤</span>
             </div>
-            <div className="flex flex-col gap-3 rounded-lg border border-gray-200 p-5 dark:border-gray-800">
+            <div className="flex flex-col gap-3 rounded-lg border border-gray-200 p-5 dark:border-gray-900">
               <span className="font-title-4 text-blue-700 dark:text-blue-300">5월</span>
               <p className="font-body-2 text-gray-700 dark:text-gray-300">파트별 스터디</p>
               <span className="font-label-2 inline-block self-start rounded-full bg-blue-50 px-3 py-1 text-blue-700 dark:bg-blue-900/30 dark:text-blue-300">중앙 해커톤</span>
