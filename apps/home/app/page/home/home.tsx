@@ -13,11 +13,11 @@ export function HomePage() {
       <section className="relative flex min-h-[calc(100vh-4rem)] flex-col items-center justify-center overflow-hidden px-5 md:min-h-[calc(100vh-5rem)]">
         {/* Blurred h logo - top left */}
         <HeroLogo
-          className="pointer-events-none absolute -rotate-17 -left-[5%] top-[10%] w-[clamp(200px,30vw,400px)] blur-[clamp(30px,4vw,50px)] dark:opacity-25 fill-blue-100 dark:fill-blue-800 sm:-left-[3%] sm:top-[12%]"
+          className="pointer-events-none absolute -rotate-17 -left-[5%] top-[10%] w-[clamp(200px,30vw,400px)] blur-[clamp(30px,4vw,50px)] fill-blue-100 dark:fill-blue-600 dark:opacity-50 sm:-left-[3%] sm:top-[12%]"
         />
         {/* Blurred h logo - bottom right */}
         <HeroLogo
-          className="pointer-events-none absolute rotate-[17.5deg] -right-[3%] bottom-[5%] w-[clamp(220px,32vw,450px)] blur-[clamp(30px,4vw,50px)] dark:opacity-25 fill-blue-100 dark:fill-blue-800 sm:-right-[1%] sm:bottom-[8%]"
+          className="pointer-events-none absolute rotate-[17.5deg] -right-[3%] bottom-[5%] w-[clamp(220px,32vw,450px)] blur-[clamp(30px,4vw,50px)] fill-blue-100 dark:fill-blue-600 dark:opacity-50 sm:-right-[1%] sm:bottom-[8%]"
         />
         <div className="relative flex flex-col items-center gap-6 md:gap-8">
           <h1 className="animate-fade-up font-title-1 text-center text-black dark:text-white">
