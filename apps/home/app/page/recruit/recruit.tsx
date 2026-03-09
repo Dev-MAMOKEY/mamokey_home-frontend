@@ -70,7 +70,7 @@ export function RecruitPage() {
               icon
               title="Part"
               subtitle="세 가지 파트로 운영돼요"
-              className="text-blue-700 dark:text-blue-400"
+              className="text-blue-400 dark:text-blue-700"
             />
           </div>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-3 md:gap-5">
@@ -89,7 +89,7 @@ export function RecruitPage() {
               icon
               title="Schedule"
               subtitle="모집 일정을 확인하세요"
-              className="text-blue-700 dark:text-blue-400"
+              className="text-blue-400 dark:text-blue-700"
             />
           </div>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:gap-5 lg:grid-cols-4">
@@ -109,7 +109,7 @@ export function RecruitPage() {
               icon
               title="Activity Plan"
               subtitle="함께할 여정을 미리 살펴보세요"
-              className="text-blue-700 dark:text-blue-400"
+              className="text-blue-400 dark:text-blue-700"
             />
           </div>
 
@@ -142,16 +142,16 @@ export function RecruitPage() {
           {/* Mobile card layout */}
           <div className="flex flex-col gap-4 md:hidden">
             <div className="flex flex-col gap-3 rounded-lg border border-gray-200 p-5 dark:border-gray-900">
-              <span className="font-title-4 text-blue-700 dark:text-blue-300">3월</span>
+              <span className="font-title-4 text-blue-400 dark:text-blue-700">3월</span>
               <p className="font-body-2 text-gray-700 dark:text-gray-300">OT 및 팀 빌딩</p>
             </div>
             <div className="flex flex-col gap-3 rounded-lg border border-gray-200 p-5 dark:border-gray-900">
-              <span className="font-title-4 text-blue-700 dark:text-blue-300">4월</span>
+              <span className="font-title-4 text-blue-400 dark:text-blue-700">4월</span>
               <p className="font-body-2 text-gray-700 dark:text-gray-300">파트별 스터디</p>
               <span className="font-label-2 inline-block self-start rounded-full bg-blue-50 px-3 py-1 text-blue-700 dark:bg-blue-900/30 dark:text-blue-300">아이디어톤</span>
             </div>
             <div className="flex flex-col gap-3 rounded-lg border border-gray-200 p-5 dark:border-gray-900">
-              <span className="font-title-4 text-blue-700 dark:text-blue-300">5월</span>
+              <span className="font-title-4 text-blue-400 dark:text-blue-700">5월</span>
               <p className="font-body-2 text-gray-700 dark:text-gray-300">파트별 스터디</p>
               <span className="font-label-2 inline-block self-start rounded-full bg-blue-50 px-3 py-1 text-blue-700 dark:bg-blue-900/30 dark:text-blue-300">중앙 해커톤</span>
             </div>
