@@ -70,7 +70,7 @@ export function RecruitPage() {
               icon
               title="Part"
               subtitle="세 가지 파트로 운영돼요"
-              className="text-blue-400 dark:text-blue-700"
+              className="text-blue-400"
             />
           </div>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-3 md:gap-5">
@@ -89,7 +89,7 @@ export function RecruitPage() {
               icon
               title="Schedule"
               subtitle="모집 일정을 확인하세요"
-              className="text-blue-400 dark:text-blue-700"
+              className="text-blue-400"
             />
           </div>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:gap-5 lg:grid-cols-4">
@@ -109,7 +109,7 @@ export function RecruitPage() {
               icon
               title="Activity Plan"
               subtitle="함께할 여정을 미리 살펴보세요"
-              className="text-blue-400 dark:text-blue-700"
+              className="text-blue-400"
             />
           </div>
 
