@@ -169,8 +169,7 @@ export function ApplyPage() {
                 <option value="1">1학년</option>
                 <option value="2">2학년</option>
                 <option value="3">3학년</option>
-                <option value="4">4학년</option>
-                <option value="5+">4학년 이상</option>
+                <option value="4+">4학년 이상</option>
               </select>
             </div>
             <div className="flex flex-col gap-2.5">
