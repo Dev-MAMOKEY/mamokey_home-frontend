@@ -22,7 +22,7 @@ export function Header({ items = [], className }: HeaderProps) {
       )}
     >
       <nav className="mx-auto flex h-16 max-w-6xl items-center justify-between px-5 md:h-20 md:px-12 lg:px-24">
-        <a href="/" className="text-xl font-bold tracking-tight text-gray-950 dark:text-gray-50 md:text-2xl">
+        <a href="/" className="text-xl font-bold tracking-tight text-black dark:text-white md:text-2xl">
           LIKELION SHINHAN
         </a>
 
