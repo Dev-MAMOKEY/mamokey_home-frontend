@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { Link } from "react-router";
+
 import { cn } from "@mamokey/utils";
 
 interface NavItem {
@@ -22,21 +24,21 @@ export function Header({ items = [], className }: HeaderProps) {
       )}
     >
       <nav className="mx-auto flex h-16 max-w-6xl items-center justify-between px-5 md:h-20 md:px-12 lg:px-24">
-        <a href="/" className="text-xl font-bold tracking-tight text-black dark:text-white md:text-2xl">
+        <Link to="/" className="text-xl font-bold tracking-tight text-black dark:text-white md:text-2xl">
           LIKELION SHINHAN
-        </a>
+        </Link>
 
         {/* Desktop nav */}
         {items.length > 0 && (
           <div className="hidden items-center gap-1 md:flex">
             {items.map((item) => (
-              <a
+              <Link
                 key={item.href}
-                href={item.href}
+                to={item.href}
                 className="rounded-lg px-4 py-2 font-body-2 text-gray-600 transition-colors duration-150 hover:bg-gray-100 hover:text-gray-950 dark:text-gray-400 dark:hover:bg-gray-800/50 dark:hover:text-gray-50"
               >
                 {item.label}
-              </a>
+              </Link>
             ))}
           </div>
         )}
@@ -65,14 +67,14 @@ export function Header({ items = [], className }: HeaderProps) {
       {isOpen && items.length > 0 && (
         <div className="border-t border-gray-200/60 bg-pure-white/95 px-5 pb-4 backdrop-blur-lg dark:border-gray-800/60 dark:bg-dark-bg/95 md:hidden">
           {items.map((item) => (
-            <a
+            <Link
               key={item.href}
-              href={item.href}
+              to={item.href}
               onClick={() => setIsOpen(false)}
               className="block rounded-lg px-4 py-3 font-body-2 text-gray-600 transition-colors duration-150 hover:bg-gray-100 hover:text-gray-950 dark:text-gray-400 dark:hover:bg-gray-800/50 dark:hover:text-gray-50"
             >
               {item.label}
-            </a>
+            </Link>
           ))}
         </div>
       )}
