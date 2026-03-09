@@ -202,7 +202,7 @@ export function ApplyPage() {
         {/* 개인정보 처리 방침 */}
         <div className="flex flex-col gap-4">
           <h3 className="font-title-4 text-black dark:text-white">개인정보 처리 방침</h3>
-          <div className="font-body-2 max-h-50 overflow-y-auto rounded-lg border border-gray-200 p-4 text-gray-500 dark:border-gray-900 dark:text-white0 md:p-5">
+          <div className="font-body-2 max-h-50 overflow-y-auto rounded-lg border border-gray-200 p-4 text-gray-500 dark:border-gray-900 dark:text-white md:p-5">
             <p>
               멋쟁이사자처럼 신한대는 지원자의 개인정보를 모집 및 선발 목적으로만
               수집·이용하며, 목적 달성 후 즉시 파기합니다. 수집 항목: 이름, 학과,
