@@ -7,8 +7,16 @@ import {
   ScrollRestoration,
 } from "react-router";
 
+import { Header, Footer } from "@mamokey/ui";
+
 import type { Route } from "./+types/root";
 import "./app.css";
+
+const navItems = [
+  { label: "소개", href: "#" },
+  { label: "프로젝트", href: "/project" },
+  { label: "지원하기", href: "/recruit" },
+];
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -16,6 +24,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+        <meta name="theme-color" content="#0a0a0c" media="(prefers-color-scheme: dark)" />
         <Meta />
         <Links />
       </head>
@@ -29,7 +39,15 @@ export function Layout({ children }: { children: React.ReactNode }) {
 }
 
 export default function App() {
-  return <Outlet />;
+  return (
+    <>
+      <Header items={navItems} />
+      <main className="pt-16 md:pt-20">
+        <Outlet />
+      </main>
+      <Footer />
+    </>
+  );
 }
 
 export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
