@@ -40,7 +40,7 @@ export function HomePage() {
 
 
       {/* Intro */}
-      <section className="bg-blue-700 dark:bg-blue-400 px-5 py-20 md:px-12 md:py-28 lg:px-24">
+      <section className="bg-blue-400 dark:bg-blue-700 px-5 py-20 md:px-12 md:py-28 lg:px-24">
         <div className="mx-auto flex max-w-6xl flex-col gap-10 md:flex-row md:items-center md:gap-16 lg:gap-24">
           <div className="flex flex-1 flex-col gap-6">
             <SectionHeader
