@@ -23,8 +23,8 @@ export function RecruitPage() {
               멋사신한과 함께할 아기사자를 모집합니다!
             </p>
           </div>
-          <Link to="/apply" className="text-pure-white">
-            <Button className="animate-fade-up bg-blue-500 px-10 transition-colors duration-200 hover:bg-blue-600" style={{ animationDelay: "0.2s" }}>
+          <Link to="/apply">
+            <Button className="animate-fade-up bg-blue-500 text-pure-white px-10 transition-colors duration-200 hover:bg-blue-600" style={{ animationDelay: "0.2s" }}>
               지원하기
             </Button>
           </Link>
