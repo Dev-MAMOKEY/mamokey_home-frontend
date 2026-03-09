@@ -2,6 +2,7 @@ import { Link } from "react-router";
 
 import { Button, SectionHeader } from "@mamokey/ui";
 
+import { HeroLogo } from "./(components)/HeroLogo";
 import { WithUsCard } from "./(components)/WithUsCard";
 import { NewsCard } from "./(components)/NewsCard";
 
@@ -10,22 +11,27 @@ export function HomePage() {
     <div className="flex flex-col bg-pure-white dark:bg-dark-bg">
       {/* Hero */}
       <section className="relative flex min-h-[calc(100vh-4rem)] flex-col items-center justify-center overflow-hidden px-5 md:min-h-[calc(100vh-5rem)]">
-        <div className="absolute -right-1/4 -top-1/4 h-[80vw] w-[80vw] rounded-full bg-blue-200/80 blur-[120px] dark:bg-blue-800/25" aria-hidden="true" />
-        <div className="absolute -bottom-1/3 -left-1/4 h-[50vw] w-[50vw] rounded-full bg-blue-100/50 blur-[100px] dark:bg-blue-900/15" aria-hidden="true" />
+        {/* Blurred h logo - top left */}
+        <HeroLogo
+          className="pointer-events-none absolute -rotate-17 -left-[5%] top-[10%] w-[clamp(200px,30vw,400px)] blur-[clamp(30px,4vw,50px)] dark:opacity-25 fill-blue-100 dark:fill-blue-800 sm:-left-[3%] sm:top-[12%]"
+        />
+        {/* Blurred h logo - bottom right */}
+        <HeroLogo
+          className="pointer-events-none absolute rotate-[17.5deg] -right-[3%] bottom-[5%] w-[clamp(220px,32vw,450px)] blur-[clamp(30px,4vw,50px)] dark:opacity-25 fill-blue-100 dark:fill-blue-800 sm:-right-[1%] sm:bottom-[8%]"
+        />
         <div className="relative flex flex-col items-center gap-6 md:gap-8">
-          <p className="animate-fade-up font-label-2 tracking-[0.2em] text-gray-500 uppercase dark:text-gray-600">
-            Shinhan University
-          </p>
-          <h1 className="animate-fade-up font-title-1 text-center text-blue-500" style={{ animationDelay: "0.1s" }}>
+          <h1 className="animate-fade-up font-title-1 text-center text-black dark:text-white">
             LIKELION
-          </h1>
-          <p className="animate-fade-up font-body-1 max-w-md text-center text-gray-700 dark:text-gray-400" style={{ animationDelay: "0.2s" }}>
-            대학생들이 함께 성장하는
             <br />
-            국내 최대 규모 IT 창업 동아리
+            SHINHAN
+          </h1>
+          <p className="animate-fade-up font-body-1 max-w-md lg:max-w-xl text-center text-gray-700 dark:text-gray-400" style={{ animationDelay: "0.1s" }}>
+            멋쟁이사자처럼 대학과 함께 서비스를 만들어내고
+            <br />
+            성장하고 싶은분들이라면, 주저하지 말고 지원해주세요!
           </p>
           <Link to="/apply" className="text-pure-white">
-            <Button className="bg-blue-500 transition-colors duration-200 hover:bg-blue-600 animate-fade-up" style={{ animationDelay: "0.3s" }}>
+            <Button className="bg-blue-500 transition-colors duration-200 hover:bg-blue-600 animate-fade-up" style={{ animationDelay: "0.2s" }}>
               14기 아기사자 지원하기
             </Button>
           </Link>
