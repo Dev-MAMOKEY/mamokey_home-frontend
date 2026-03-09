@@ -2,6 +2,7 @@ import { Link } from "react-router";
 
 import { Button, SectionHeader } from "@mamokey/ui";
 
+import { HeroBackground } from "./(components)/HeroBackground";
 import { TargetItem } from "./(components)/TargetItem";
 import { PartCard } from "./(components)/PartCard";
 import { ScheduleCard } from "./(components)/ScheduleCard";
@@ -12,20 +13,18 @@ export function RecruitPage() {
     <div className="flex flex-col bg-pure-white dark:bg-dark-bg">
       {/* Hero */}
       <section className="relative flex min-h-[calc(100vh-4rem)] flex-col items-center justify-center overflow-hidden px-5 md:min-h-[calc(100vh-5rem)]">
-        <img
-          src="/images/hero-bg.png"
-          className="absolute w-full h-full object-cover"
-          aria-hidden="true"
-        />
-        <div className="relative flex flex-col items-center gap-6 md:gap-8">
-          <h1 className="animate-fade-up font-title-1 text-center text-black dark:text-white">
-            RECRUIT
-          </h1>
-          <p className="animate-fade-up font-body-1 max-w-md lg:max-w-xl text-center text-gray-700 dark:text-gray-400" style={{ animationDelay: "0.1s" }}>
-            멋사신한과 함께할 아기사자를 모집합니다!
-          </p>
+        <HeroBackground />
+        <div className="relative flex flex-col items-center gap-10">
+          <div className="flex flex-col items-center gap-6 md:gap-10">
+            <h1 className="animate-fade-up font-title-1 text-center text-black dark:text-white">
+              RECRUIT
+            </h1>
+            <p className="animate-fade-up font-body-1 text-center text-gray-700 dark:text-gray-400" style={{ animationDelay: "0.1s" }}>
+              멋사신한과 함께할 아기사자를 모집합니다!
+            </p>
+          </div>
           <Link to="/apply" className="text-pure-white">
-            <Button className="bg-blue-500 transition-colors duration-200 hover:bg-blue-600 animate-fade-up" style={{ animationDelay: "0.2s" }}>
+            <Button className="animate-fade-up bg-blue-500 px-10 transition-colors duration-200 hover:bg-blue-600" style={{ animationDelay: "0.2s" }}>
               지원하기
             </Button>
           </Link>
