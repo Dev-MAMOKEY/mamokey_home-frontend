@@ -30,8 +30,8 @@ export function HomePage() {
             <br />
             성장하고 싶은분들이라면, 주저하지 말고 지원해주세요!
           </p>
-          <Link to="/apply" className="text-pure-white">
-            <Button className="bg-blue-500 transition-colors duration-200 hover:bg-blue-600 animate-fade-up" style={{ animationDelay: "0.2s" }}>
+          <Link to="/apply">
+            <Button className="bg-blue-500 text-pure-white transition-colors duration-200 hover:bg-blue-600 animate-fade-up" style={{ animationDelay: "0.2s" }}>
               14기 아기사자 지원하기
             </Button>
           </Link>
