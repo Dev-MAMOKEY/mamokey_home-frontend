@@ -62,7 +62,7 @@
 
 /* ─── Typography ─── */
 
-@utility text-title-1 {
+@utility font-title-1 {
   font-size: var(--font-size-title-1);
   font-weight: 800;
   line-height: var(--line-height-title-1);
@@ -70,7 +70,7 @@
   font-family: var(--font-sans);
 }
 
-@utility text-title-2 {
+@utility font-title-2 {
   font-size: var(--font-size-title-2);
   font-weight: 700;
   line-height: var(--line-height-title-2);
@@ -78,56 +78,56 @@
   font-family: var(--font-sans);
 }
 
-@utility text-title-3 {
+@utility font-title-3 {
   font-size: var(--font-size-title-3);
   font-weight: 700;
   line-height: var(--line-height-title-3);
   font-family: var(--font-sans);
 }
 
-@utility text-title-4 {
+@utility font-title-4 {
   font-size: var(--font-size-title-4);
   font-weight: 600;
   line-height: var(--line-height-title-4);
   font-family: var(--font-sans);
 }
 
-@utility text-body-1 {
+@utility font-body-1 {
   font-size: var(--font-size-body-1);
   font-weight: 400;
   line-height: var(--line-height-body-1);
   font-family: var(--font-sans);
 }
 
-@utility text-body-2 {
+@utility font-body-2 {
   font-size: var(--font-size-body-2);
   font-weight: 400;
   line-height: var(--line-height-body-2);
   font-family: var(--font-sans);
 }
 
-@utility text-label-1 {
+@utility font-label-1 {
   font-size: var(--font-size-label-1);
   font-weight: 400;
   line-height: var(--line-height-label-1);
   font-family: var(--font-sans);
 }
 
-@utility text-label-2 {
+@utility font-label-2 {
   font-size: var(--font-size-label-2);
   font-weight: 400;
   line-height: var(--line-height-label-2);
   font-family: var(--font-sans);
 }
 
-@utility text-button-1 {
+@utility font-button-1 {
   font-size: var(--font-size-button-1);
   font-weight: 300;
   line-height: var(--line-height-button-1);
   font-family: var(--font-sans);
 }
 
-@utility text-button-2 {
+@utility font-button-2 {
   font-size: var(--font-size-button-2);
   font-weight: 600;
   line-height: 100%;
