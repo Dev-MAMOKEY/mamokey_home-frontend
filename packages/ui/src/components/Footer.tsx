@@ -6,7 +6,7 @@ interface FooterProps {
 
 export function Footer({ className }: FooterProps) {
   return (
-    <footer className={cn("border-t border-gray-200 bg-gray-950 dark:border-gray-800", className)}>
+    <footer className={cn("border-t border-gray-200 bg-gray-950 dark:border-gray-900", className)}>
       <div className="mx-auto flex max-w-6xl flex-col gap-10 px-5 py-12 md:flex-row md:items-end md:justify-between md:px-12 md:py-16 lg:px-24">
         <div className="flex flex-col gap-4">
           <p className="font-label-1 text-pure-white">
