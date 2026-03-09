@@ -64,7 +64,7 @@
 
 @utility font-title-1 {
   font-size: var(--font-size-title-1);
-  font-weight: 800;
+  font-weight: 300;
   line-height: var(--line-height-title-1);
   letter-spacing: var(--letter-spacing-title-1);
   font-family: var(--font-sans);
